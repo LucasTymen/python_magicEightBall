@@ -70,5 +70,11 @@ elif random_number == 13:
 else :
   answer = "Error"
 
+# ### solving empty strings ###
+if len(random_name) == 0:
+  print("Question: " + random_question)
+else:
+  print(random_name + " asks: " + random_question)
+
 print(random_name + " asks:  --->  " + random_question)
 print("Magic 8-Ball's answer: ---->  " + answer)
